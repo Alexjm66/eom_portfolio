@@ -223,13 +223,92 @@ section #images{
     font-size: 21px;
 }
 .subjects{
+    display: flex;
+}
+#subjects{
     margin-left: 5%;
 }
-.subjects h1{
+#subjects h1{
     font-size: 30px;
 }
-.subjects label{
+#subjects label{
     font-size: 23px;
+}
+#current{
+    margin-top: 1%;
+    padding-left: 17.5%;
+    font-size: 22px;
+}
+#myskills{
+    width: 500px;
+    margin: 60px auto;
+    color: black;
+    text-transform: uppercase;
+}
+#myskills li{
+    margin: 20px 0;
+}
+.sbar{
+    background-color: wheat;
+    display: block;
+    height: 10px;
+    border: 1px solid rgb(255, 30, 0);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #423b38e2; 
+}
+.sbar span{
+    height: 10px;
+    float: left;
+    background-color: black;
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+.js{
+    width: 60%;
+    animation: js 3s;
+}
+.python{
+    width: 40%;
+    animation: python 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
 }
 footer h1{
     margin-top: 2%;
@@ -344,7 +423,121 @@ section .button{
     font-weight: bolder;
     
 }
+#projecthead{
+    color: white;
+    margin-top: 100px;
+    margin-left: 38%;
+    font-size: 25px;
+}
+#projects{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 13%;
+}
+section .project1:hover{
+    background-color: wheat;
+}
+.project1{
+    margin-right: 10px;
+    padding: 1%;
+    border-radius: 10px;
+    
+}
+.project1 img{
+    border-radius: 10px;
+}
+.project2{
+    margin-left: 10px;
+    padding: 1%;
+    border-radius: 10px;
+}
+.project2 img{
+    border-radius: 10px;
+}
+section .project2:hover{
+    background-color: wheat;
+}
+.project3{
+    margin-left: 20px;
+    padding: 1%;
+    border-radius: 10px;
+}
+.project3 img{
+    border-radius: 10px;
+}
+section .project3:hover{
+    background-color: wheat;
+}
+#projects2{
+    display: flex;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+.project4{
+    margin-left: 20px;
+    padding: 1%;
+    border-radius: 10px;
+}
+.project4 img{
+    border-radius: 10px;
+}
+section .project4:hover{
+    background-color: wheat;
+}
+.project5{
+    margin-left: 20px;
+    padding: 1%;
+    border-radius: 10px;
+}
+.project5 img{
+    border-radius: 10px;
+}
+section .project5:hover{
+    background-color: wheat;
+}
+.project6{
+    margin-left: 20px;
+    padding: 1%;
+    border-radius: 10px;
+}
+.project6 img{
+    border-radius: 10px;
+}
+section .project6:hover{
+    background-color: wheat;
+}
+#testimonials{
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    box-shadow: 0 10px 10px rgb(255, 213, 136), 0 10px 10px rgb(255, 213, 136);
 
+}
+.testimonials{
+    font-size: 20px;
+    color: wheat;
+    text-align: center;
+    margin-top: 100px;
+}
+#sandile{
+    display: flex;
+}
+#sandile p{
+    margin-top: 3%;
+    margin-left: 1%;
+    font-size: 20px;
+}
+#laeeqah{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#laeeqah p{
+    margin-top: 3%;
+    margin-left: 1%;
+    font-size: 20px;
+}
 @media only screen and (max-width: 1050px){
     .content h2{
         font-size: 50px;
