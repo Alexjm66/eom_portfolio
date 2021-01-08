@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+    <link type="text/css" href="main.css" rel="stylesheet">
+</head>
+<script src="main.js"></script>
+<body id="body1">
+    <header>
+        <div id="nav-bar">
+            <div id="hamburger" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+            </ul></br>
+        </div>
+        <div class="nav-bg" id="nav-bg"></div>
+    </header></br>
+
+    <div class="contacthead">
+        <h1>Get In Touch</h1>
+    </div>
+
+    <section class="contactinfo">
+        
+        <div id="pngs">
+            <div id="gmail">
+                <img src="images/gmail.png" class="png1" width="100px" height="120px">
+                <div id="gmaillink">
+                    <label><a href="">alexjmaart665@gmail.com</a></label>
+                </div>
+                
+            </div>
+            <div id="cellphone">
+                <img src="images/cellphone.png" class="png1" width="100px" height="120px">
+                <div id="cellphonelink">
+                    <label>082 607 3313</label>
+                </div>
+            </div>
+            
+            <div id="github">
+                <img src="images/github.png" class="png1" width="110px" height="130px">
+                <div id="githublink">
+                    <label><a href="https://github.com/Alexjm66">https://github.com/Alexjm66</a></label>
+                </div>
+            </div>
+            <div id="linkedin">
+                <img src="images/linkedin.png" id="linked" class="png1" width="100px" height="130px">
+                <div id="linkedlink">
+                    <label><a href="https://www.linkedin.com/in/alexander-maart-037a361bb/">https://www.linkedin.com/in/alexander-maart-037a361bb/</a></label>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+         <div id="imgback">
+            <img class="rotate" src="images/languages.png" width="400px" height="400px">
+        </div> 
+    </section> -->
+    <section id="feedback">
+        <h1>Send a Message</h1>
+        <form>
+            <label>Name</label><br>
+            <input type="text" placeholder="Enter name" class="input"><br>
+            <label>Surname</label><br>
+            <input type="text" placeholder="Enter surname"class="input"><br>
+            <label>Email</label><br>
+            <input type="text" placeholder="Enter email"class="input"><br>
+            <label>Message</label><br>
+            <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Type your message here..!"></textarea><br>
+            <input class="button" type="button" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
