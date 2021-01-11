@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*home page*/
 #body1{
     background: url(images/backgrd.jpg);
     margin-bottom: 2%;
@@ -152,9 +153,7 @@ section #images{
     padding-left: 43%;
     padding-top: 1%;
 }
-#body2{
-    background: url(images/backgrd.jpg)
-}
+/*About page*/
 #abtBody{
     background-color: whitesmoke;
     margin-top: 58px;
@@ -251,14 +250,14 @@ section #images{
 .sbar{
     background-color: wheat;
     display: block;
-    height: 10px;
+    height: 30px;
     border: 1px solid rgb(255, 30, 0);
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 0 10px #423b38e2; 
 }
 .sbar span{
-    height: 10px;
+    height: 30px;
     float: left;
     background-color: black;
 }
@@ -424,7 +423,7 @@ section .button{
     
 }
 #projecthead{
-    color: white;
+    color: wheat;
     margin-top: 100px;
     margin-left: 38%;
     font-size: 25px;
@@ -438,7 +437,7 @@ section .project1:hover{
     background-color: wheat;
 }
 .project1{
-    margin-right: 10px;
+    margin-right: 20px;
     padding: 1%;
     border-radius: 10px;
     
@@ -447,7 +446,6 @@ section .project1:hover{
     border-radius: 10px;
 }
 .project2{
-    margin-left: 10px;
     padding: 1%;
     border-radius: 10px;
 }
@@ -512,6 +510,7 @@ section .project6:hover{
     margin-left: 20%;
     margin-top: 2%;
     box-shadow: 0 10px 10px rgb(255, 213, 136), 0 10px 10px rgb(255, 213, 136);
+    border-radius: 13px;
 
 }
 .testimonials{
@@ -525,8 +524,9 @@ section .project6:hover{
 }
 #sandile p{
     margin-top: 3%;
-    margin-left: 1%;
+    margin-left: 5%;
     font-size: 20px;
+    width: 60%
 }
 #laeeqah{
     display: flex;
@@ -535,35 +535,296 @@ section .project6:hover{
 }
 #laeeqah p{
     margin-top: 3%;
-    margin-left: 1%;
+    margin-left: 4%;
     font-size: 20px;
+    width: 60%;
 }
-@media only screen and (max-width: 1050px){
+#laeeqah img{
+    border-radius: 50%;
+}
+#aashiq{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#aashiq p{
+    margin-top: 3%;
+    margin-left: 4%;
+    font-size: 20px;
+    width: 60%;
+}
+#aashiq img{
+    border-radius: 50%;
+}
+/*home media query*/
+@media only screen and (max-width: 390px){
+    .content{
+        padding: 170px 0px 10px 40px;
+    }
     .content h2{
-        font-size: 50px;
+        font-size: 25px;
     }
     .content h1{
-        font-size: 80px;
+        font-size: 35px;
     }
     #portfolio {
-        width: 140px;
-        font-size: 25px;
+        width: 100px;
+        font-size: 20px;
+        padding-left: 3.5%;
+        
     }
     .subhead {
         width: 100%;
         padding-bottom: 3%;
+        padding-top: 3%;
     }
     .subhead h2 {
-        padding-left: 20%;
-        font-size: 40px;
+        text-align: center;
+        font-size: 20px;
     }
     .pic1{
-        width: 200px;
-        height: 200px;
+        width: 70px;
+        height: 70px;
     }
     section #images{
-        width: 100%;
-        display: flex;
-        align-content: center;
+        margin-left: 74px;
+    }
+    .img1 h4{
+        font-size: 15px;
+        padding-left: 20%;
+    }
+    .img2 h4{
+        font-size: 15px;
+        padding-left: 24%;
+    }
+    .img3 h4{
+        font-size: 15px;
+        padding-left: 34%;
+    }
+    footer h1{
+        margin-top: 5%;
+        text-align: left;
+        margin-left: 3%;
+        color: whitesmoke;
+        font-size: 10px;
+    }
+    /*About*/
+    #about h1{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 50px;
+        padding-bottom: 2px;
+        color: wheat;
+    }
+    #abtBody{
+        margin-top: 10px;
+        margin-left: 5%;
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    #abtContent{
+        display: list-item;
+    }
+    #abtImage img{
+        margin-left: 60px;
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+    } 
+    .abtText{
+        margin-left: 25px;
+        width: 85%;
+        height: 45%;
+        padding: 3%;
+        font-size: 17px;
+        
+    }
+    .abtText p{
+        padding-top: 2px;
+        text-align: left;
+        font-size: 17px;
+    }
+    #edu{
+        display: list-item;
+    }
+    #edu .edu {
+        font-size: 17px;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+    #edu .edu label{
+        margin-top: 2%;
+        font-size: 17px;
+    }
+    #edu .addon{
+        margin-top: 2%;
+        padding-left: 5%;
+        font-size: 17px;
+    }
+    .subjects{
+        margin-top: 2%;
+        display: list-item;
+    }
+    #subjects h1{
+        font-size: 25px;
+    }
+    #subjects label{
+        font-size: 17px;
+    }
+    #current{
+        margin-top: 10px;
+        padding-left: 5%;
+        font-size: 17px;
+    }
+    #myskills{
+        margin-top: 5%;
+        width: 270px;
+        margin-left: 5% ;
+        color: black;
+        text-transform: uppercase;
+    }
+    #myskills li{
+        margin: 10px 0;
+    }
+    .contacthead h1{
+        font-size: 25px;
+    }
+    .contactinfo{
+        margin-top: 2%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .png1{
+        width: 55px;
+        height: 55px;
+    }
+    
+    #gmaillink a{
+        padding-top: 2%;
+        font-size: 13px;
+    }
+    #cellphonelink {
+        font-size: 13px;
+    }
+    #githublink a{
+        font-size: 13px;
+    }
+    #linkedlink a{
+        font-size: 13px;
+    }
+    section form{
+        margin-left: 5%;
+        font-size: 17px;
+        width: 90%;
+    }
+    #feedback h1{
+        color: white;
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    section .input{
+        width: 300px;
+        height: 30px;
+    }
+    section #textarea{
+        width: 300px;
+    }
+    /*Projects*/
+    #projecthead{
+        margin-left: 0%;
+        font-size: 15px;
+        text-align: center;
+    }
+    #projects{
+       display: list-item;
+       margin-left: 10%;
+    }
+    .project1 img{
+        width: 300px;
+        height: 200px;
+    }
+    .project2 img{
+        width: 300px;
+        height: 200px;
+    }
+    .project3 img{
+        display: none;
+    }
+    #projects2{
+        margin-top: 1%;
+        margin-left: 5%;
+        display: list-item;
+    }
+    .project4 img{
+        width: 300px;
+        height: 200px;
+    }
+    .project5 img{
+        width: 300px;
+        height: 200px;
+    }
+    .project6 img{
+        width: 300px;
+        height: 200px;
+    }
+    section .project1:hover{
+        width: 308px;
+    }
+    section .project2:hover{
+        width: 308px;
+    }
+    section .project3:hover{
+        width: 308px;
+    }
+    section .project4:hover{
+        width: 308px;
+    }
+    section .project4:hover{
+        width: 308px;
+    }
+    section .project1:hover{
+        width: 308px;
+    }
+    .testimonials h1{
+        font-size: 25px;
+    }
+    #testimonials{
+        width: 90%;
+        margin-left: 5%;
+        padding-bottom: 2%;
+    }
+    #sandile img{
+        margin-left: 10%;
+    }
+    #sandile{
+        display: list-item;
+    }
+    #sandile p{
+        margin-top: 3%;
+        margin-left: 15%;
+        font-size: 15px;
+        width: 70%
+    }
+    #laeeqah{
+        display: list-item;
+    }
+    #laeeqah p{
+        margin-left: 15%;
+        font-size: 15px;
+        width: 70%;
+    }
+    #laeeqah img{
+        margin-left: 13%;
+    }
+    #aashiq{
+        display: list-item;
+    }
+    #aashiq p{
+        margin-left: 15%;
+        font-size: 15px;
+        width: 60%;
+    }
+    #aashiq img{
+        margin-left: 15%;
     }
 }
